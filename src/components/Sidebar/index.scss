@@ -14,10 +14,11 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 40px;
       height: auto;
 
       &.sub-logo {
+        margin-top: -5px;
         width: 50px;
       }
     }

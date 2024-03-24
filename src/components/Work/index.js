@@ -7,23 +7,23 @@ import Logo1 from "./Logo1";
 
 const Work = () => {
     
-    const [letterClass, setLetterClass] = useState('text-animate')
+    const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
-        const timerId = setTimeout(() => {
-          setLetterClass('text-animate-hover');
+        const timer = setTimeout(() => {
+            setLetterClass('text-animate-hover');
         }, 3000);
-      
+
         return () => {
-          clearTimeout(timerId);
-        };
-      }, []);
+            clearTimeout(timer);
+        }
+    });
 
     return (
         <>
             <div className = "container work-page"> 
                 <div className = "text-zone"> 
-                    <h1>
+                    <h1 className="page-title">
                         <AnimatedLetters letterClass={letterClass}  strArray = {"Work Experience".split("")} idx={10}/>
                     </h1>
                     <Timeline />

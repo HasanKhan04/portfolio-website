@@ -29,12 +29,13 @@ const About = () => {
                         <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
                     </h1>
                     <p>
-                    I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
+                    I am a very ambitious software developer with over 1 year of professional software engineering 
+                    experience, that has prepared me to be a team player who communicates effectively, faces problems analytically
+                    and has the technical skills to tackle any challenge.
                     <br/>
                     <TechList />
                     <Link to="/about" className="flat-button">LANGUAGES</Link>
-                    <br/>
-                    <Link to="/about/dev" className="flat-button">DEVELOPMENT TOOLS</Link>
+                    <Link to="/about/dev" className="flat-button">TOOLS / CLOUD</Link>
                     </p>
                 </div>
                 <div className = "stage-cube-cont">

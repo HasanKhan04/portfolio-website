@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -44,9 +46,11 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+          Thank you for your interest in getting in touch!
+
+          I value open communication and welcome any inquiries,
+          feedback, or collaboration opportunities. Please don't
+          hesitate to get in touch with me by filling out the contact form.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -83,6 +87,15 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+          <div className='right-side'>
+            <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/erik-cupsa/">
+                <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
+            </a>
+            <a target = "_blank" rel = "noreferrer" href = "mailto:ErikCupsa@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
+            </a>
+          </div>
+
         </div>
       </div>
       <Loader type="pacman" />

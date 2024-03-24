@@ -61,7 +61,7 @@ const Timeline = () => {
           <div className="timeline-marker"></div>
           <div className="timeline-content">
             <h2>{event.title}</h2>
-            <h3>{event.role}</h3>
+            {/* <h3>{event.role}</h3> */}
             {event.expanded ? (
               <div>
                 {event.description.map((desc, descIndex) => (
