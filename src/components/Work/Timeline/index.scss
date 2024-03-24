@@ -11,7 +11,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px;
+    padding: 1px;
   }
   
   .date {
@@ -27,12 +27,22 @@
     width: 100%;
     max-width: 1000px;
     margin-bottom: 20px;
+    color: #ffd700;
   }
   
   .event-title {
     font-size: 16px;
     font-weight: bold;
+    color: #ffd700;
   }
+
+  h2 {
+    font-size: 20px;
+    font-family: "Coolvetica";
+    font-weight: 400;
+    color: #fff;
+  }
+
   
   .timeline-item {
     position: relative;
