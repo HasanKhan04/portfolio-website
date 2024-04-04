@@ -26,10 +26,10 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'service_lj8o2ab', 
-                'template_wn3x5jn', 
+                'service_7bnmzgv', 
+                'template_csr8tra', 
                 refForm.current, 
-                '_5KSx35ggTJ2W2nLV'
+                'uG7wgVnSBPzOOgYUR'
             )
             .then(
                 () => {
@@ -68,8 +68,8 @@ const Contact = () => {
                                 </p>
                             </td>
                             <td className="right-side">
-                                <div className="contact-form" onSubmit={sendEmail}>
-                                    <form ref={refForm}>
+                                <div >
+                                    <form className="contact-form" onSubmit={sendEmail} ref={refForm}>
                                         <ul>
                                             <li className = "half">
                                                 <input type="text" name="name" placeholder="Name" required />
