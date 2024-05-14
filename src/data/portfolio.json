@@ -4,25 +4,25 @@
             "cover": "/portfolio/PLPredictor.png",
             "title": "Premier Picks",
             "description": "React, Spring Boot, Python, PostgreSQL",
-            "url": "http://google.com"
+            "url": "https://github.com/HasanKhan04/premier-picks"
         },
         {
             "cover": "/portfolio/Plane.png",
             "title": "Flight Scout",
             "description": "Python, Flask",
-            "url": "http://google.com"
+            "url": "https://github.com/HasanKhan04/flight-scout"
         },
         {
             "cover": "/portfolio/PremierPicks.png",
             "title": "PL Match Predictor",
             "description": "Python, Machine Learning",
-            "url": "http://google.com"
+            "url": "https://github.com/HasanKhan04/premier-picks"
         },
         {
             "cover": "/portfolio/Security.png",
             "title": "Spring Secure",
             "description": "Spring Boot, JWT Authentication, Security",
-            "url": "http://google.com"
+            "url": "https://github.com/HasanKhan04"
         }
     ]
 }
